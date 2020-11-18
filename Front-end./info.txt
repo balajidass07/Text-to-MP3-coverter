@@ -1,0 +1,4 @@
+Login- login page
+Register- register page
+both should be unzip in nginx server in gcp vm.
+Login.html should be named as index.html placed in /var/www/html
