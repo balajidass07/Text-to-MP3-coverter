@@ -6,8 +6,7 @@ var app = express();
 const AWS = require('aws-sdk')
 const Fs = require('fs')
 
-const s3 = new AWS.S3({
-});
+const s3 = new AWS.S3({});
 
 var count=0;
 app.use(express.urlencoded());
